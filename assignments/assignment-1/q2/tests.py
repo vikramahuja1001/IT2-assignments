@@ -1,0 +1,12 @@
+from q2 import *
+p1=(1,2,3)
+p2=(4,6,3)
+v1=(p1,p2)
+p3=(5,6,7)
+p4=(10,18,7)
+v2=(p3,p4)
+print length(v1)
+print length(v2)
+print normalize(v1)
+print cross_product(v1,v2)
+print dot_product(v1,v2)
